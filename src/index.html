@@ -5,6 +5,13 @@
     <title>App Title</title>
   </head>
   <body>
-    <script src="./index.ts"></script>
+    <input id="fileInput" type="file" accept=".json, .vtt">
+    <button id="generateButton">Generate</button>
+    <a id="downloadLink" download="output.json">Download JSON</a>
+    <div id="recordContainer"></div>
+    <script type="module" src="./index.ts"></script>
+    <!-- <script type="text/javascript">
+      main();
+    </script> -->
   </body>
 </html>

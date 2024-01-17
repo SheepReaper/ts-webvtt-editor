@@ -1,19 +1,24 @@
 {
   "name": "typescript-yarn2-parcel-prettier-eslint-vscode-project-template",
+  "source": "src/index.html",
   "scripts": {
-    "dev": "parcel serve ./src/index.html",
-    "build": "parcel build ./src/index.html"
+    "dev": "parcel",
+    "build": "parcel build"
   },
   "devDependencies": {
     "@types/eslint": "8.56.2",
+    "@types/node": "^20.11.1",
     "@types/prettier": "2.7.3",
     "@typescript-eslint/eslint-plugin": "6.18.1",
     "@typescript-eslint/parser": "6.18.1",
+    "assert": "^2.0.0",
+    "console-browserify": "^1.2.0",
     "eslint": "8.56.0",
     "eslint-config-prettier": "9.1.0",
-    "parcel": "2.11.0",
+    "parcel": "^2.11.0",
     "prettier": "3.2.2",
-    "typescript": "5.3.3"
+    "typescript": "5.3.3",
+    "util": "^0.12.3"
   },
   "packageManager": "yarn@4.0.2"
 }
