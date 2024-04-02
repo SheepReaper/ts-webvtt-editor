@@ -1291,12 +1291,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^20.11.1":
-  version: 20.11.2
-  resolution: "@types/node@npm:20.11.2"
+"@types/node@npm:^20.11.2":
+  version: 20.12.2
+  resolution: "@types/node@npm:20.12.2"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: 10c0/11a935f6676f78e1ced4805f9653891d1fc78ecafd78c7352d289be8c1829c88ebfe45ffd6b4687bbfc73edd0e177746d8cefff651a9f13199ac2dd3ca1076b7
+  checksum: 10c0/bb47d115a8f95aadebdd6403fee16d149d6b5568ad53bacc42df34c2d572561e36ba47b05f7f68bada43752d7369b470a90df65b646af7502dfb799a21b4fca7
   languageName: node
   linkType: hard
 
@@ -3980,7 +3980,7 @@ __metadata:
   resolution: "typescript-yarn2-parcel-prettier-eslint-vscode-project-template@workspace:."
   dependencies:
     "@types/eslint": "npm:8.56.7"
-    "@types/node": "npm:^20.11.1"
+    "@types/node": "npm:^20.11.2"
     "@types/prettier": "npm:2.7.3"
     "@typescript-eslint/eslint-plugin": "npm:6.18.1"
     "@typescript-eslint/parser": "npm:6.18.1"
