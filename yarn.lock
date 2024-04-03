@@ -1295,7 +1295,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^20.11.2":
+"@types/node@npm:20.12.3":
   version: 20.12.3
   resolution: "@types/node@npm:20.12.3"
   dependencies:
@@ -1564,7 +1564,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"assert@npm:^2.0.0":
+"assert@npm:2.1.0":
   version: 2.1.0
   resolution: "assert@npm:2.1.0"
   dependencies:
@@ -1793,7 +1793,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"console-browserify@npm:^1.2.0":
+"console-browserify@npm:1.2.0":
   version: 1.2.0
   resolution: "console-browserify@npm:1.2.0"
   checksum: 10c0/89b99a53b7d6cee54e1e64fa6b1f7ac24b844b4019c5d39db298637e55c1f4ffa5c165457ad984864de1379df2c8e1886cbbdac85d9dbb6876a9f26c3106f226
@@ -3476,7 +3476,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"parcel@npm:^2.11.0":
+"parcel@npm:2.12.0":
   version: 2.12.0
   resolution: "parcel@npm:2.12.0"
   dependencies:
@@ -4030,18 +4030,18 @@ __metadata:
   resolution: "typescript-yarn2-parcel-prettier-eslint-vscode-project-template@workspace:."
   dependencies:
     "@types/eslint": "npm:8.56.7"
-    "@types/node": "npm:^20.11.2"
+    "@types/node": "npm:20.12.3"
     "@types/prettier": "npm:2.7.3"
     "@typescript-eslint/eslint-plugin": "npm:6.21.0"
     "@typescript-eslint/parser": "npm:6.21.0"
-    assert: "npm:^2.0.0"
-    console-browserify: "npm:^1.2.0"
+    assert: "npm:2.1.0"
+    console-browserify: "npm:1.2.0"
     eslint: "npm:8.57.0"
     eslint-config-prettier: "npm:9.1.0"
-    parcel: "npm:^2.11.0"
+    parcel: "npm:2.12.0"
     prettier: "npm:3.2.2"
     typescript: "npm:5.4.3"
-    util: "npm:^0.12.3"
+    util: "npm:0.12.5"
   languageName: unknown
   linkType: soft
 
@@ -4113,7 +4113,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"util@npm:^0.12.3, util@npm:^0.12.5":
+"util@npm:0.12.5, util@npm:^0.12.5":
   version: 0.12.5
   resolution: "util@npm:0.12.5"
   dependencies:
