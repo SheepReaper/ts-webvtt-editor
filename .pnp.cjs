@@ -2089,7 +2089,7 @@ const RAW_RUNTIME_STATE =
           ["call-bind", "npm:1.0.8"],\
           ["call-bind-apply-helpers", "npm:1.0.1"],\
           ["es-define-property", "npm:1.0.1"],\
-          ["get-intrinsic", "npm:1.2.6"],\
+          ["get-intrinsic", "npm:1.2.7"],\
           ["set-function-length", "npm:1.2.2"]\
         ],\
         "linkType": "HARD"\
@@ -2112,7 +2112,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["call-bound", "npm:1.0.3"],\
           ["call-bind-apply-helpers", "npm:1.0.1"],\
-          ["get-intrinsic", "npm:1.2.6"]\
+          ["get-intrinsic", "npm:1.2.7"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2750,10 +2750,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["fast-glob", [\
-      ["npm:3.3.2", {\
-        "packageLocation": "../../../../cache/others/berry/cache/fast-glob-npm-3.3.2-0a8cb4f2ca-10c0.zip/node_modules/fast-glob/",\
+      ["npm:3.3.3", {\
+        "packageLocation": "../../../../cache/others/berry/cache/fast-glob-npm-3.3.3-2a653be532-10c0.zip/node_modules/fast-glob/",\
         "packageDependencies": [\
-          ["fast-glob", "npm:3.3.2"],\
+          ["fast-glob", "npm:3.3.3"],\
           ["@nodelib/fs.stat", "npm:2.0.5"],\
           ["@nodelib/fs.walk", "npm:1.2.8"],\
           ["glob-parent", "npm:5.1.2"],\
@@ -2893,16 +2893,16 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["get-intrinsic", [\
-      ["npm:1.2.6", {\
-        "packageLocation": "../../../../cache/others/berry/cache/get-intrinsic-npm-1.2.6-e4c30ebc37-10c0.zip/node_modules/get-intrinsic/",\
+      ["npm:1.2.7", {\
+        "packageLocation": "../../../../cache/others/berry/cache/get-intrinsic-npm-1.2.7-2e0e0e7564-10c0.zip/node_modules/get-intrinsic/",\
         "packageDependencies": [\
-          ["get-intrinsic", "npm:1.2.6"],\
+          ["get-intrinsic", "npm:1.2.7"],\
           ["call-bind-apply-helpers", "npm:1.0.1"],\
-          ["dunder-proto", "npm:1.0.1"],\
           ["es-define-property", "npm:1.0.1"],\
           ["es-errors", "npm:1.3.0"],\
           ["es-object-atoms", "npm:1.0.0"],\
           ["function-bind", "npm:1.1.2"],\
+          ["get-proto", "npm:1.0.1"],\
           ["gopd", "npm:1.2.0"],\
           ["has-symbols", "npm:1.1.0"],\
           ["hasown", "npm:2.0.2"],\
@@ -2916,6 +2916,17 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../cache/others/berry/cache/get-port-npm-4.2.0-07a1c5d34e-10c0.zip/node_modules/get-port/",\
         "packageDependencies": [\
           ["get-port", "npm:4.2.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["get-proto", [\
+      ["npm:1.0.1", {\
+        "packageLocation": "../../../../cache/others/berry/cache/get-proto-npm-1.0.1-4d30bac614-10c0.zip/node_modules/get-proto/",\
+        "packageDependencies": [\
+          ["get-proto", "npm:1.0.1"],\
+          ["dunder-proto", "npm:1.0.1"],\
+          ["es-object-atoms", "npm:1.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2983,7 +2994,7 @@ const RAW_RUNTIME_STATE =
           ["globby", "npm:11.1.0"],\
           ["array-union", "npm:2.1.0"],\
           ["dir-glob", "npm:3.0.1"],\
-          ["fast-glob", "npm:3.3.2"],\
+          ["fast-glob", "npm:3.3.3"],\
           ["ignore", "npm:5.3.2"],\
           ["merge2", "npm:1.4.1"],\
           ["slash", "npm:3.0.0"]\
@@ -3292,11 +3303,14 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["is-generator-function", [\
-      ["npm:1.0.10", {\
-        "packageLocation": "../../../../cache/others/berry/cache/is-generator-function-npm-1.0.10-1d0f3809ef-10c0.zip/node_modules/is-generator-function/",\
+      ["npm:1.1.0", {\
+        "packageLocation": "../../../../cache/others/berry/cache/is-generator-function-npm-1.1.0-e96e2ba973-10c0.zip/node_modules/is-generator-function/",\
         "packageDependencies": [\
-          ["is-generator-function", "npm:1.0.10"],\
-          ["has-tostringtag", "npm:1.0.2"]\
+          ["is-generator-function", "npm:1.1.0"],\
+          ["call-bound", "npm:1.0.3"],\
+          ["get-proto", "npm:1.0.1"],\
+          ["has-tostringtag", "npm:1.0.2"],\
+          ["safe-regex-test", "npm:1.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3345,6 +3359,19 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../cache/others/berry/cache/is-path-inside-npm-3.0.3-2ea0ef44fd-10c0.zip/node_modules/is-path-inside/",\
         "packageDependencies": [\
           ["is-path-inside", "npm:3.0.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["is-regex", [\
+      ["npm:1.2.1", {\
+        "packageLocation": "../../../../cache/others/berry/cache/is-regex-npm-1.2.1-70a484f2c8-10c0.zip/node_modules/is-regex/",\
+        "packageDependencies": [\
+          ["is-regex", "npm:1.2.1"],\
+          ["call-bound", "npm:1.0.3"],\
+          ["gopd", "npm:1.2.0"],\
+          ["has-tostringtag", "npm:1.0.2"],\
+          ["hasown", "npm:2.0.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4384,6 +4411,18 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["safe-regex-test", [\
+      ["npm:1.1.0", {\
+        "packageLocation": "../../../../cache/others/berry/cache/safe-regex-test-npm-1.1.0-453eb81b83-10c0.zip/node_modules/safe-regex-test/",\
+        "packageDependencies": [\
+          ["safe-regex-test", "npm:1.1.0"],\
+          ["call-bound", "npm:1.0.3"],\
+          ["es-errors", "npm:1.3.0"],\
+          ["is-regex", "npm:1.2.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["safer-buffer", [\
       ["npm:2.1.2", {\
         "packageLocation": "../../../../cache/others/berry/cache/safer-buffer-npm-2.1.2-8d5c0b705e-10c0.zip/node_modules/safer-buffer/",\
@@ -4410,7 +4449,7 @@ const RAW_RUNTIME_STATE =
           ["define-data-property", "npm:1.1.4"],\
           ["es-errors", "npm:1.3.0"],\
           ["function-bind", "npm:1.1.2"],\
-          ["get-intrinsic", "npm:1.2.6"],\
+          ["get-intrinsic", "npm:1.2.7"],\
           ["gopd", "npm:1.2.0"],\
           ["has-property-descriptors", "npm:1.0.2"]\
         ],\
@@ -4789,7 +4828,7 @@ const RAW_RUNTIME_STATE =
           ["util", "npm:0.12.5"],\
           ["inherits", "npm:2.0.4"],\
           ["is-arguments", "npm:1.2.0"],\
-          ["is-generator-function", "npm:1.0.10"],\
+          ["is-generator-function", "npm:1.1.0"],\
           ["is-typed-array", "npm:1.1.15"],\
           ["which-typed-array", "npm:1.1.18"]\
         ],\
