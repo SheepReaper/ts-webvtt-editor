@@ -14,7 +14,7 @@
     "assert": "2.1.0",
     "console-browserify": "1.2.0",
     "eslint": "8.57.1",
-    "eslint-config-prettier": "9.1.0",
+    "eslint-config-prettier": "10.0.1",
     "parcel": "2.13.3",
     "prettier": "3.4.2",
     "typescript": "5.7.3",
