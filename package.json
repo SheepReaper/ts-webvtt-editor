@@ -20,5 +20,5 @@
     "typescript": "5.8.2",
     "util": "0.12.5"
   },
-  "packageManager": "yarn@4.6.0"
+  "packageManager": "yarn@4.7.0"
 }
